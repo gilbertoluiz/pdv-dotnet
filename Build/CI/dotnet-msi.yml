@@ -1,0 +1,26 @@
+name: Build .NET MSI
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Restore
+        run: dotnet restore
+      - name: Build
+        run: dotnet build -c Release
+      - name: Test
+        run: echo "No tests yet"
+      - name: Publish UI
+        run: dotnet publish src/PdvSuite.UI.Wpf -c Release -r win-x64 /p:PublishSingleFile=true
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pdv-dotnet-artifacts
+          path: |
+            src/PdvSuite.UI.Wpf/bin/Release/net8.0-windows/win-x64/publish/**

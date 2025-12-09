@@ -1,0 +1,25 @@
+<Window x:Class="PdvSuite.UI.Wpf.Views.TelaConfiguracaoInicial"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="Configuração Inicial" Height="560" Width="780" WindowStartupLocation="CenterScreen">
+  <Grid Margin="16">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="Auto"/>
+    </Grid.RowDefinitions>
+    <StackPanel Orientation="Horizontal">
+      <TextBlock Text="Configuração Inicial" FontSize="22" FontWeight="Bold" Margin="0,0,16,0"/>
+      <ToggleButton x:Name="ToggleTema" Content="Escuro" Width="80" Checked="ToggleTema_Checked" Unchecked="ToggleTema_Unchecked"/>
+    </StackPanel>
+    <StackPanel Grid.Row="1" Margin="0,12,0,12">
+      <TextBox x:Name="TxtConexao" materialDesign:HintAssist.Hint="String de Conexão MySQL 5.5"/>
+      <TextBox x:Name="TxtUnimakeEnvio" materialDesign:HintAssist.Hint="C:\Unimake\UniNFe\<cnpjdocliente>\Envio"/>
+      <TextBox x:Name="TxtUnimakeRetorno" materialDesign:HintAssist.Hint="C:\Unimake\UniNFe\<cnpjdocliente>\Retorno"/>
+      <CheckBox x:Name="ChkContingencia" Content="Contingência offline" IsChecked="True"/>
+      <CheckBox x:Name="ChkTef" Content="Habilitar TEF" IsChecked="True"/>
+      <TextBox x:Name="TxtImpressora" materialDesign:HintAssist.Hint="Impressora (IP/nome)"/>
+    </StackPanel>
+    <Button Grid.Row="2" Content="Salvar e continuar" Margin="0,16,0,0" Click="Salvar_Click"/>
+  </Grid>
+</Window>

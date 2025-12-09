@@ -1,0 +1,19 @@
+<Window x:Class="PdvSuite.UI.Wpf.Views.TelaHomePdv"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        Title="PDV Suite" Height="720" Width="1080" WindowStartupLocation="CenterScreen">
+  <Grid>
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="280"/>
+      <ColumnDefinition Width="*"/>
+    </Grid.ColumnDefinitions>
+    <StackPanel Grid.Column="0">
+      <TextBlock Text="PDV Suite" FontSize="24" Margin="12"/>
+      <Button Content="Pedidos" Margin="12" Click="AbrirPedidos_Click"/>
+      <Button Content="Emissão" Margin="12"/>
+      <Button Content="Configurações" Margin="12"/>
+      <ToggleButton x:Name="ToggleTema" Content="Escuro" Margin="12"
+                    Checked="ToggleTema_Checked" Unchecked="ToggleTema_Unchecked"/>
+    </StackPanel>
+    <Frame x:Name="FramePrincipal" Grid.Column="1" Margin="12"/>
+  </Grid>
+</Window>

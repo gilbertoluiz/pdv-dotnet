@@ -1,0 +1,23 @@
+<Page x:Class="PdvSuite.UI.Wpf.Views.TelaPedidos"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      Title="Pedidos">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+    <StackPanel Orientation="Horizontal" Margin="0,0,0,8">
+      <Button Content="Novo Pedido" Click="Novo_Click"/>
+      <Button Content="Editar" Margin="8,0,0,0" Click="Editar_Click"/>
+      <Button Content="Excluir" Margin="8,0,0,0" Click="Excluir_Click"/>
+    </StackPanel>
+    <DataGrid x:Name="GridPedidos" Grid.Row="1" AutoGenerateColumns="False">
+      <DataGrid.Columns>
+        <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="80"/>
+        <DataGridTextColumn Header="Cliente" Binding="{Binding DocumentoCliente}" Width="*"/>
+        <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="160"/>
+        <DataGridTextColumn Header="Criado" Binding="{Binding CriadoEm}" Width="200"/>
+      </DataGrid.Columns>
+    </DataGrid>
+  </Grid>
+</Page>
