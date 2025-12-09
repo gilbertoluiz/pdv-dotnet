@@ -1,0 +1,12 @@
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Dominio\obj\Debug\net8.0\PdvSuite.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Dominio\obj\Debug\net8.0\PdvSuite.Dominio.AssemblyInfoInputs.cache
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Dominio\obj\Debug\net8.0\PdvSuite.Dominio.AssemblyInfo.cs
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Dominio\obj\Debug\net8.0\PdvSuite.Dominio.csproj.CoreCompileInputs.cache
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Dominio\obj\Debug\net8.0\PdvSuite.Dominio.sourcelink.json
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Dominio\bin\Debug\net8.0\PdvSuite.Dominio.deps.json
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Dominio\bin\Debug\net8.0\PdvSuite.Dominio.dll
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Dominio\bin\Debug\net8.0\PdvSuite.Dominio.pdb
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Dominio\obj\Debug\net8.0\PdvSuite.Dominio.dll
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Dominio\obj\Debug\net8.0\refint\PdvSuite.Dominio.dll
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Dominio\obj\Debug\net8.0\PdvSuite.Dominio.pdb
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Dominio\obj\Debug\net8.0\ref\PdvSuite.Dominio.dll

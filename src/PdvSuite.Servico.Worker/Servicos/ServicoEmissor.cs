@@ -1,5 +1,9 @@
+using System;
+using System.Threading;
+using System.Threading.Tasks;
 using Microsoft.Extensions.Hosting;
 using PdvSuite.Dominio.Servicos;
+using PdvSuite.Servico.Worker.Watchers;
 
 namespace PdvSuite.Servico.Worker.Servicos;
 

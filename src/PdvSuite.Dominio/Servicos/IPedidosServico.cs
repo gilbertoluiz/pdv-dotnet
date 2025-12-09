@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Threading.Tasks;
 using PdvSuite.Dominio.Modelos;
 
 namespace PdvSuite.Dominio.Servicos;

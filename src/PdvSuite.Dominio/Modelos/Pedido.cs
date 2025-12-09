@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+
 namespace PdvSuite.Dominio.Modelos;
 
 public enum StatusPedido { Rascunho, ProntoFiscal, Emitido, Erro }

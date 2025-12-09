@@ -8,4 +8,7 @@
     <PackageReference Include="Dapper" Version="2.0.151" />
     <PackageReference Include="Serilog" Version="3.1.1" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PdvSuite.Dominio\PdvSuite.Dominio.csproj" />
+  </ItemGroup>
 </Project>

@@ -1,0 +1,16 @@
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Infra\obj\Debug\net8.0\PdvSuite.Infra.csproj.AssemblyReference.cache
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Infra\obj\Debug\net8.0\PdvSuite.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Infra\obj\Debug\net8.0\PdvSuite.Infra.AssemblyInfoInputs.cache
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Infra\obj\Debug\net8.0\PdvSuite.Infra.AssemblyInfo.cs
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Infra\obj\Debug\net8.0\PdvSuite.Infra.csproj.CoreCompileInputs.cache
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Infra\obj\Debug\net8.0\PdvSuite.Infra.sourcelink.json
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Infra\bin\Debug\net8.0\PdvSuite.Infra.deps.json
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Infra\bin\Debug\net8.0\PdvSuite.Infra.dll
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Infra\bin\Debug\net8.0\PdvSuite.Infra.pdb
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Infra\bin\Debug\net8.0\PdvSuite.Dominio.dll
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Infra\bin\Debug\net8.0\PdvSuite.Dominio.pdb
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Infra\obj\Debug\net8.0\PdvSuite.22746E99.Up2Date
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Infra\obj\Debug\net8.0\PdvSuite.Infra.dll
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Infra\obj\Debug\net8.0\refint\PdvSuite.Infra.dll
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Infra\obj\Debug\net8.0\PdvSuite.Infra.pdb
+C:\Dev\projetos\temp\pdv-dotnet\src\PdvSuite.Infra\obj\Debug\net8.0\ref\PdvSuite.Infra.dll
